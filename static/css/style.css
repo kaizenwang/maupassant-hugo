@@ -13,6 +13,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'LXGWWenKaiScreenR';
+    src: url('fonts/LXGWWenKaiScreenR.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 [class^="icon-"], [class*=" icon-"] {
     font-family: 'icomoon';
     font-style: normal;
@@ -188,9 +195,10 @@ textarea {
     /**
     font:bold 42px/1.12 "Times New Roman", Georgia, Times, sans-serif;
     **/
-    font-size: 37.5px;
+    font-size: 27.5px;
+    font-family: "LXGWWenKaiScreenR",system-ui,-apple-system,BlinkMacSystemFont,PingFang SC,Microsoft YaHei UI,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-weight: bold;
-    color:#555;
+    color:#161209;
 }
 #logo span {
     color:#777;
@@ -355,6 +363,7 @@ textarea {
     line-height: 1.7;
     color:#444;
     padding-top:27px;
+    font-family: "LXGWWenKaiScreenR";
 }
 .post-content h2,.post-content h3,.post-content h4,.post-content h5,.post-content h6 {
     color: #ba3925;
